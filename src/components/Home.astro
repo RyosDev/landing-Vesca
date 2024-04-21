@@ -1,47 +1,34 @@
 <section
-  class="flex flex-col gap-y-10 p-4 pb-10 font-poppins bg-[url('/public/bg-home.png')] bg-cover bg-no-repeat md:p-8 lg:p-16"
+  class="grid grid-cols-1 items-center text-strongBlue gap-10 p-10 font-poppins h-[70dvh] min-h-[600px] bg-[url('/public/bg-home.png')] bg-cover bg-no-repeat md:p-8 lg:p-24 lg:grid-cols-2"
 >
-  <div>
-    <p class="font-bold text-base text-[#292B79]">VESCA</p>
-  </div>
-  <div>
+  <div class="flex flex-col gap-8 max-w-[600px]">
     <div class="flex flex-row justify-between">
-      <div class="flex flex-col gap-y-5 text-4xl md:text-5xl">
-        <h2 class="text-lightBlue font-normal">
-          <strong class="text-5xl text-strongBlue font-bold md:text-6xl"
-            >V</strong
-          >ehículo
-        </h2>
-        <h2 class="text-lightBlue font-normal">
-          <strong class="text-5xl text-strongBlue font-bold md:text-6xl"
-            >E</strong
-          >léctrico
-        </h2>
-        <h2 class="text-lightBlue font-normal">
-          <strong class="text-5xl text-strongBlue font-bold md:text-6xl"
-            >S</strong
-          >olar de
-        </h2>
-        <h2 class="text-lightBlue font-normal">
-          <strong class="text-5xl text-strongBlue font-bold md:text-6xl"
-            >C</strong
-          >onducción
-        </h2>
-        <h2 class="text-lightBlue font-normal">
-          <strong class="text-5xl text-strongBlue font-bold md:text-6xl"
-            >A</strong
-          >utónoma
-        </h2>
-      </div>
-      <div class="hidden w-1/2 border border-black rounded-xl lg:flex"></div>
+      <h1
+        class="flex flex-col gap-2 text-4xl text-balance -tracking-[1px] md:text-5xl md:block"
+      >
+        <span>
+          <strong>V</strong>ehículo
+        </span>
+        <span>
+          <strong>E</strong>léctrico
+        </span>
+        <span>
+          <strong>S</strong>olar de
+        </span>
+        <span>
+          <strong>C</strong>onducción
+        </span>
+        <span>
+          <strong>A</strong>utónoma
+        </span>
+      </h1>
     </div>
-  </div>
 
-  <div>
-    <p class="italic text-strongText text-sm md:text-base">
-      El nuevo vehículo <strong>eléctrico</strong> de conducción <strong>
-        automática</strong
-      >capaz de ser recargable con <strong>energía solar</strong>
+    <p class="text-sm text-balance md:text-base lg:max-w-none">
+      El nuevo vehículo <strong>eléctrico</strong> de conducción
+      <strong> automática</strong> capaz de ser recargable con
+      <strong>energía solar</strong>
     </p>
   </div>
+  <div class="hidden w-full h-full bg-strongBlue rounded-xl lg:flex"></div>
 </section>
