@@ -9,7 +9,7 @@ export default {
       colors: {
         lightBlue: "#595B93",
         strongBlue: "#1B1D6A",
-        titlleColor: "#292B79",
+        titleColor: "#292B79",
         textColor: "#9EA0D6",
         strongText: "#696CC9",
       },
