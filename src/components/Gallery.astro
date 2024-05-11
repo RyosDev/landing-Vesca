@@ -1,3 +1,12 @@
+---
+import { Image } from "astro:assets";
+import VescaWork3 from "./public/vesca-photos/vesca-work-3.jpeg";
+import VescaWork4 from "./public/vesca-photos/vesca-work-4.jpeg";
+import VescaActe from "./public/vesca-photos/vesca-acte.jpeg";
+import VescaActe2 from "./public/vesca-photos/vesca-acte-2.jpeg";
+import VescaTeam from "./public/vesca-photos/vesca-team.jpeg";
+---
+
 <section class="section-container">
   <div class="flex flex-col max-w-section w-full">
     <h2 class="text-center text-2xl mb-8 lg:mb-20 md:text-3xl lg:text-4xl">
@@ -9,23 +18,23 @@
       <div
         class="rounded-xl w-full h-full aspect-[4/3] lg:col-span-2 lg:aspect-[2/1]"
       >
-        <img src="public/vesca3d-2.jpeg" alt="" class="rounded-xl" />
+        <Image src={VescaActe} alt="" class="rounded-xl" />
       </div>
       <div class="rounded-xl w-full h-full aspect-[4/3]">
-        <img src="public/vesca-work.jpeg" alt="" class="rounded-xl" />
+        <Image src={VescaWork3} alt="" class="rounded-xl" />
       </div>
       <div class="rounded-xl w-full h-full aspect-[4/3]">
-        <img src="public/vesca-work-4.jpeg" alt="" class="rounded-xl" />
+        <Image src={VescaWork4} alt="" class="rounded-xl" />
       </div>
       <div
-        class="bg-indigo-500 rounded-xl w-full h-full aspect-[4/3] lg:col-span-2 lg:aspect-[2/1]"
+        class="rounded-xl w-full h-full aspect-[4/3] lg:col-span-2 lg:aspect-[2/1]"
       >
-        <img src="public/vesca-acte.jpeg" alt="" class="rounded-xl" />
+        <Image src={VescaActe2} alt="" class="rounded-xl" />
       </div>
       <div
-        class="bg-indigo-600 rounded-xl w-full h-full aspect-[4/3] md:aspect-[8/3] md:col-span-2 lg:col-span-3 lg:aspect-[3/1]"
+        class="rounded-xl w-full h-full aspect-[4/3] md:aspect-[8/3] md:col-span-2 lg:col-span-3 lg:aspect-[3/1]"
       >
-        <img src="public/vesca3d.jpeg" alt="" class="rounded-xl" />
+        <Image src={VescaTeam} alt="" class="rounded-xl" />
       </div>
     </div>
   </div>
