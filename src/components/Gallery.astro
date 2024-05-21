@@ -1,3 +1,12 @@
+---
+import { Image } from "astro:assets";
+import vescaActeImage from "../assets/vesca-photos/vesca-acte.jpg";
+import vescaActe2Image from "../assets/vesca-photos/vesca-acte-2.jpg";
+import vescaWork3Image from "../assets/vesca-photos/vesca-work3.jpg";
+import vescaWork4Image from "../assets/vesca-photos/vesca-work-4.jpg";
+import vescaTeamImage from "../assets/vesca-photos/vesca-team.jpg";
+---
+
 <section class="section-container">
   <div class="flex flex-col max-w-section w-full">
     <h2 class="text-center text-2xl mb-8 lg:mb-20 md:text-3xl lg:text-4xl">
@@ -9,43 +18,23 @@
       <div
         class="rounded-xl w-full h-full aspect-[4/3] lg:col-span-2 lg:aspect-[2/1]"
       >
-        <img
-          src="./public/vesca-photos/vesca-acte.jpg"
-          alt=""
-          class="rounded-xl"
-        />
+        <Image src={vescaActeImage} alt="" class="rounded-xl" />
       </div>
       <div class="rounded-xl w-full h-full aspect-[4/3]">
-        <img
-          src="./public/vesca-photos/vesca-work3.jpg"
-          alt=""
-          class="rounded-xl"
-        />
+        <Image src={vescaWork3Image} alt="" class="rounded-xl" />
       </div>
       <div class="rounded-xl w-full h-full aspect-[4/3]">
-        <img
-          src="/public/vesca-photos/vesca-work-4.jpg"
-          alt=""
-          class="rounded-xl"
-        />
+        <Image src={vescaWork4Image} alt="" class="rounded-xl" />
       </div>
       <div
         class="rounded-xl w-full h-full aspect-[4/3] lg:col-span-2 lg:aspect-[2/1]"
       >
-        <img
-          src="./public/vesca-photos/vesca-acte.jpg"
-          alt=""
-          class="rounded-xl"
-        />
+        <Image src={vescaActe2Image} alt="" class="rounded-xl" />
       </div>
       <div
         class="rounded-xl w-full h-full aspect-[4/3] md:aspect-[8/3] md:col-span-2 lg:col-span-3 lg:aspect-[3/1]"
       >
-        <img
-          src="./public/vesca-photos/vesca-team.jpg"
-          alt=""
-          class="rounded-xl"
-        />
+        <Image src={vescaTeamImage} alt="" class="rounded-xl" />
       </div>
     </div>
   </div>
